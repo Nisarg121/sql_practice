@@ -4,7 +4,7 @@ const client = new Client({
   user: "avnadmin",
   host: "pg-33824d09-learnsql.l.aivencloud.com",
   database: "learnsql",
-  passwordddd: "AVNS_Z-tCkw2hUlsw24Ff5Zs",
+  password: "AVNS_Z-tCkw2hUlsw24Ff5Zs",
   port: 18891,
   ssl: {
     rejectUnauthorized: true,

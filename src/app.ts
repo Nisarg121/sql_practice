@@ -1,4 +1,5 @@
 import { client } from "./database";
+import { createEmployeesTable } from "./query";
 
 async function executeQuery(query: string, value: any[]) {
   const res = await client.query(query, value);
@@ -6,4 +7,4 @@ async function executeQuery(query: string, value: any[]) {
   console.log(res.rows);
 }
 
-executeQuery(``, []).catch((e) => console.log(e));
+executeQuery(`ALTER TABLE employees ADD UNIQUE (email)`, []).catch((e) => console.log(e));

@@ -1,0 +1,45 @@
+Sure, here are some quick exercises where you can create tables, select data, and delete data in PostgreSQL:
+Exercise 1: Create a Table and Insert Data
+
+Create a table called "employees" with the following columns:
+
+id (serial primary key)
+first_name (varchar)
+last_name (varchar)
+email (varchar)
+department (varchar)
+
+
+Insert at least 5 records into the "employees" table.
+Select all records from the "employees" table.
+
+Exercise 2: Create Another Table and Join
+
+Create a table called "departments" with the following columns:
+
+id (serial primary key)
+name (varchar)
+
+
+Insert at least 3 records into the "departments" table.
+Select all employee records along with their department names by joining the "employees" and "departments" tables.
+
+Exercise 3: Update and Delete Data
+
+Update the "email" column for one of the employees in the "employees" table.
+Delete an employee record from the "employees" table based on a specific condition (e.g., department name).
+Select all records from the "employees" table to verify the changes.
+
+Exercise 4: Aggregate Functions and Subqueries
+
+Calculate the total number of employees in each department using aggregate functions and GROUP BY.
+Find the employee(s) with the highest salary using a subquery and the MAX function.
+Select the department name and the number of employees in each department, but only for departments with more than 2 employees.
+
+Exercise 5: Create a View and Insert Data Using a View
+
+Create a view called "employee_details" that combines data from the "employees" and "departments" tables.
+Insert a new record into the "employees" table using the "employee_details" view.
+Select all records from the "employee_details" view to verify the changes.
+
+These exercises cover creating tables, inserting data, selecting data, updating and deleting data, using aggregate functions and subqueries, and creating and using views. You can modify the table structures, data, and queries based on your preferences or combine multiple exercises to create more complex scenarios.
